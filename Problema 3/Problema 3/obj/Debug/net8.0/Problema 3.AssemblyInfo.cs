@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Problema 3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df7e01d43b85cedccedb5a73d1708d4949d0d68f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a05a72b97c99ef461488a26710db97e94f6b666")]
 [assembly: System.Reflection.AssemblyProductAttribute("Problema 3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Problema 3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

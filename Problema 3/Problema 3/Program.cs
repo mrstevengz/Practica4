@@ -10,7 +10,7 @@ class Traductor
 
     static List<(string, string)> CrearDiccionario()
     {
-        List<(string, string)> diccionario = new List<(string, string)>();
+        List<(string, string)> diccionario = new List<(string, string)>();//Inicializacion de la lista para almacenar las parejas de palabras
         Console.WriteLine("Introduce las parejas de palabras (Ingles/Español): ");
 
         for (int i = 0; i < 5; i++)
@@ -23,19 +23,37 @@ class Traductor
         }
         return diccionario;
     }
-   static void Traducir(List<(string, string)> diccionario)
+
+    static void Traducir(List<(string, string)> diccionario)
     {
-        Console.WriteLine("Bienvenido al modo de traduccion. \nIntroduce una palabra en ingles para traducir: ");
-        string palabra = Console.ReadLine();
-        string traduccion = "No se ha encontrado la traduccion";
-        foreach (var par in diccionario)
+        while (true)
         {
-            if (par.Item1 == palabra)
+            Console.WriteLine("Bienvenido al modo de traduccion. \nIntroduce una palabra en ingles para traducir (o escribe salir para terminar): ");
+            string palabra = Console.ReadLine();
+
+            if (palabra == "salir") //Verificacion para permitir al usuario salir del programa
             {
-                traduccion = par.Item2;
                 break;
             }
+
+            string traduccion = null;
+            foreach (var par in diccionario) //Buscar la traduccion en el diccionario
+            {
+                if (par.Item1 == palabra)
+                {
+                    traduccion = par.Item2;
+                    break;
+                }
+            }
+
+            if (traduccion != null) //Verificacion para mostrar la traduccion si se encuentra, o mandar un error
+            {
+                Console.WriteLine($"La traducción de '{palabra}' es '{traduccion}'.");
+            }
+            else
+            {
+                Console.WriteLine("La palabra no se encuentra en el diccionario.");
+            }
         }
-        Console.WriteLine("Traduccion: " + traduccion);
     }
 }
