@@ -23,5 +23,19 @@ class Traductor
         }
         return diccionario;
     }
-
+   static void Traducir(List<(string, string)> diccionario)
+    {
+        Console.WriteLine("Bienvenido al modo de traduccion. \nIntroduce una palabra en ingles para traducir: ");
+        string palabra = Console.ReadLine();
+        string traduccion = "No se ha encontrado la traduccion";
+        foreach (var par in diccionario)
+        {
+            if (par.Item1 == palabra)
+            {
+                traduccion = par.Item2;
+                break;
+            }
+        }
+        Console.WriteLine("Traduccion: " + traduccion);
+    }
 }
