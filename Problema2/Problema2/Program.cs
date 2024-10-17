@@ -41,11 +41,26 @@ namespace Problema2
             deposito = decimal.Parse(Console.ReadLine());
             decimal nuevoSaldo = balance.Last() + deposito;
             balance.Add(nuevoSaldo);
-            Console.WriteLine("Depósito realizado con éxito. Su nuevoi saldo es de: {0}", nuevoSaldo);
+            Console.WriteLine("Depósito realizado con éxito. Su nuevo saldo es de: {0}", nuevoSaldo);
 
         }
 
-     
+        static void RetirarSaldo(List<decimal> balance)
+        {
+            decimal retiro;
+            Console.WriteLine("Ingrese la cantidad a retirar: ");
+            retiro = decimal.Parse(Console.ReadLine());
+            if (retiro > balance.Last())
+            {
+                Console.WriteLine("Saldo insuficiente");
+            }
+            else
+            {
+                decimal nuevoSaldo = balance.Last() - retiro;
+                balance.Add(nuevoSaldo);
+                Console.WriteLine("Retiro realizado con éxito. Su nuevo saldo es de: {0}", nuevoSaldo);
+            }
+        }
 
     }
 }
