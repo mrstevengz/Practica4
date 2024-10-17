@@ -34,5 +34,18 @@ namespace Problema2
             Console.WriteLine("Su saldo actual es de: " + balance[0]);
         }
 
+        static void DepositarDinero(List<decimal> balance)
+        {
+            decimal deposito;
+            Console.WriteLine("Ingrese la cantidad a depositar: ");
+            deposito = decimal.Parse(Console.ReadLine());
+            decimal nuevoSaldo = balance.Last() + deposito;
+            balance.Add(nuevoSaldo);
+            Console.WriteLine("Depósito realizado con éxito. Su nuevoi saldo es de: {0}", nuevoSaldo);
+
+        }
+
+     
+
     }
 }
