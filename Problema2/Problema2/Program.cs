@@ -6,13 +6,13 @@ namespace Problema2
     {
         static void Main(string[] args)
         {
-            List <decimal> balance = new List<decimal> { 0.0m };
+            List <decimal> balance = new List<decimal> { 0.0m }; //Lista para almacenar los saldos luego de cada transaccion
             int op;
             Console.WriteLine("Bienvenido a su cuenta bancaria");
             Console.WriteLine("--------------------------------");
             do
             {
-                Console.WriteLine("\n1. Consultar saldo");
+                Console.WriteLine("\n1. Consultar saldo"); //Menu de opciones para el programa
                 Console.WriteLine("2. Depositar dinero");
                 Console.WriteLine("3. Retirar saldo");
                 Console.WriteLine("4. Salir");
@@ -39,7 +39,7 @@ namespace Problema2
             decimal deposito;
             Console.WriteLine("Ingrese la cantidad a depositar: ");
             deposito = decimal.Parse(Console.ReadLine());
-            decimal nuevoSaldo = balance.Last() + deposito;
+            decimal nuevoSaldo = balance.Last() + deposito; //El .last se usa para obtener el ultimo elemento de la lista, que seria el saldo actual
             balance.Add(nuevoSaldo);
             Console.WriteLine("Depósito realizado con éxito. Su nuevo saldo es de: {0}", nuevoSaldo);
 
@@ -50,13 +50,13 @@ namespace Problema2
             decimal retiro;
             Console.WriteLine("Ingrese la cantidad a retirar: ");
             retiro = decimal.Parse(Console.ReadLine());
-            if (retiro > balance.Last())
+            if (retiro > balance.Last()) //Confirmacion para verificar si el saldo es suficiente para realizar el retiro
             {
                 Console.WriteLine("Saldo insuficiente");
             }
             else
             {
-                decimal nuevoSaldo = balance.Last() - retiro;
+                decimal nuevoSaldo = balance.Last() - retiro; //Se calcula el nuevo saldo despues de retirar dinero
                 balance.Add(nuevoSaldo);
                 Console.WriteLine("Retiro realizado con éxito. Su nuevo saldo es de: {0}", nuevoSaldo);
             }
