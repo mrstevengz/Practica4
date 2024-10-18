@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\seque\\.nuget\\packages\\": {},
-    "D:\\Visual Studio 2022\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Steven Sequeira\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\seque\\source\\repos\\RepositorioTarea\\Practica4\\Problema 1\\Problema 1\\Problema 1.csproj",
+      "projectUniqueName": "C:\\Users\\Steven Sequeira\\Desktop\\Repos\\Practica4\\Problema 1\\Problema 1\\Problema 1.csproj",
       "projectName": "Problema 1",
-      "projectPath": "C:\\Users\\seque\\source\\repos\\RepositorioTarea\\Practica4\\Problema 1\\Problema 1\\Problema 1.csproj",
-      "packagesPath": "C:\\Users\\seque\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\seque\\source\\repos\\RepositorioTarea\\Practica4\\Problema 1\\Problema 1\\obj\\",
+      "projectPath": "C:\\Users\\Steven Sequeira\\Desktop\\Repos\\Practica4\\Problema 1\\Problema 1\\Problema 1.csproj",
+      "packagesPath": "C:\\Users\\Steven Sequeira\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Steven Sequeira\\Desktop\\Repos\\Practica4\\Problema 1\\Problema 1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Visual Studio 2022\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\seque\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Steven Sequeira\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
