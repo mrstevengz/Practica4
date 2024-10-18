@@ -13,3 +13,18 @@ C:\Users\seque\source\repos\RepositorioTarea\Practica4\Problema 3\Problema 3\obj
 C:\Users\seque\source\repos\RepositorioTarea\Practica4\Problema 3\Problema 3\obj\Debug\net8.0\Problema 3.pdb
 C:\Users\seque\source\repos\RepositorioTarea\Practica4\Problema 3\Problema 3\obj\Debug\net8.0\Problema 3.genruntimeconfig.cache
 C:\Users\seque\source\repos\RepositorioTarea\Practica4\Problema 3\Problema 3\obj\Debug\net8.0\ref\Problema 3.dll
+C:\Users\Steven Sequeira\Desktop\Repos\Practica4\Problema 3\Problema 3\bin\Debug\net8.0\Problema 3.exe
+C:\Users\Steven Sequeira\Desktop\Repos\Practica4\Problema 3\Problema 3\bin\Debug\net8.0\Problema 3.deps.json
+C:\Users\Steven Sequeira\Desktop\Repos\Practica4\Problema 3\Problema 3\bin\Debug\net8.0\Problema 3.runtimeconfig.json
+C:\Users\Steven Sequeira\Desktop\Repos\Practica4\Problema 3\Problema 3\bin\Debug\net8.0\Problema 3.dll
+C:\Users\Steven Sequeira\Desktop\Repos\Practica4\Problema 3\Problema 3\bin\Debug\net8.0\Problema 3.pdb
+C:\Users\Steven Sequeira\Desktop\Repos\Practica4\Problema 3\Problema 3\obj\Debug\net8.0\Problema 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Steven Sequeira\Desktop\Repos\Practica4\Problema 3\Problema 3\obj\Debug\net8.0\Problema 3.AssemblyInfoInputs.cache
+C:\Users\Steven Sequeira\Desktop\Repos\Practica4\Problema 3\Problema 3\obj\Debug\net8.0\Problema 3.AssemblyInfo.cs
+C:\Users\Steven Sequeira\Desktop\Repos\Practica4\Problema 3\Problema 3\obj\Debug\net8.0\Problema 3.csproj.CoreCompileInputs.cache
+C:\Users\Steven Sequeira\Desktop\Repos\Practica4\Problema 3\Problema 3\obj\Debug\net8.0\Problema 3.sourcelink.json
+C:\Users\Steven Sequeira\Desktop\Repos\Practica4\Problema 3\Problema 3\obj\Debug\net8.0\Problema 3.dll
+C:\Users\Steven Sequeira\Desktop\Repos\Practica4\Problema 3\Problema 3\obj\Debug\net8.0\refint\Problema 3.dll
+C:\Users\Steven Sequeira\Desktop\Repos\Practica4\Problema 3\Problema 3\obj\Debug\net8.0\Problema 3.pdb
+C:\Users\Steven Sequeira\Desktop\Repos\Practica4\Problema 3\Problema 3\obj\Debug\net8.0\Problema 3.genruntimeconfig.cache
+C:\Users\Steven Sequeira\Desktop\Repos\Practica4\Problema 3\Problema 3\obj\Debug\net8.0\ref\Problema 3.dll
